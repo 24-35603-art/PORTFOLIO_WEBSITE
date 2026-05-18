@@ -3,159 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio – Frias Stephanie Eunice C.</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="style.css">
+  <title>MyCare Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav>
-  <div class="logo">Portfolio</div>
-
-  <ul class="nav-links">
-    <li><a href="#" class="active" data-page="home">Home</a></li>
-    <li><a href="#" data-page="about">About</a></li>
-    <li><a href="#" data-page="contact">Contact</a></li>
-    <li><a href="#" data-page="projects">Projects</a></li>
-  </ul>
-
-  <button class="btn-login">Log In</button>
-</nav>
-
-<section class="page active" id="home">
-  <div class="home-text">
-    <h1>Want to <span>Get to<br>Know Me?</span></h1>
-    <button class="btn-start" onclick="navigate('about')">Get Started</button>
-  </div>
-
-  <div class="home-img">
-    <img src="my photo copy.jpg" alt="">
-
-  </div>
-</section>
-
-<section class="page" id="about">
-  <div class="about-left">
-    <h2>Who am I?</h2>
-
-    <div class="about-card">
-      Hi! I'm <strong>Frias Stephanie Eunice C,</strong> a
-      Computer Engineering student passionate about technology,
-      networking, and system development.
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#" class="nav-brand">
+      <div class="brand-logo">
+        <img src="logo.png" alt="MyCare Studio Logo">  
     </div>
 
-    <div class="skills-card">
-      <h3>SKILLS</h3>
-      <ul>
-        <li><span class="icon">🖥️</span> Programming</li>
-        <li><span class="icon">🔧</span> Hardware Knowledge</li>
-        <li><span class="icon">🌐</span> Networking</li>
-        <li><span class="icon">⚙️</span> Troubleshooting</li>
-        <li><span class="icon">🔩</span> Embedded Systems</li>
-      </ul>
-    </div>
-  </div>
+      <span class="brand-name">MyCare Studio</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#" class="active">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-  <div class="about-right">
-    <img src="my photo copy.jpg" alt="">
+  <!-- PAGE CONTENT -->
+  <div class="page-wrapper">
+    <div class="about-section">
 
-  </div>
-</section>
-
-<section class="page" id="contact">
-  <div class="contact-form-wrap">
-
-    <label>NAME</label>
-    <input type="text" placeholder="Your Name">
-
-    <label>EMAIL</label>
-    <input type="email" placeholder="your@email.com">
-
-    <label>MESSAGE</label>
-    <textarea placeholder="Write your message here..."></textarea>
-
-    <button class="btn-submit">Submit</button>
-  </div>
-
-  <div class="contact-right">
-
-    <div class="social-card">
-      <h3>SOCIAL MEDIA</h3>
-      <div class="social-icons">
-        <a href="#" class="social-icon fb">📘</a>
-        <a href="#" class="social-icon ig">📸</a>
-        <a href="#" class="social-icon li">💼</a>
-        <a href="#" class="social-icon tg">✈️</a>
-      </div>
-    </div>
-
-    <div class="extra-card"></div>
-
-    <div class="music-card">
-      <div class="music-icon">🎵</div>
-
-      <div class="music-info">
-        <div class="music-title">Now Playing: My Intro</div>
-
-        <div class="music-controls">
-          <button class="play-btn">▶</button>
-          <span>0:30</span>
-          <div class="music-bar"><div class="music-bar-fill"></div></div>
-          <span>2:15</span>
-          <span class="vol-icon">🔊</span>
+      <!-- IMAGE -->
+      <div class="about-image-wrap">
+        <div class="about-image-frame">
+            <img src="image.png" alt="">
+          <div class="img-placeholder">🌿</div>
         </div>
       </div>
+
+      <div class="about-text">
+        <p class="about-label">About Us</p>
+
+        <h2 class="about-title">Why Choose MyCare Studio?</h2>
+
+        <p class="about-desc">
+          MyCare Studio is your trusted self-care destination offering
+          high-quality beauty and wellness services. Our goal is to help
+          you feel confident, refreshed, and empowered.
+        </p>
+
+        <ul class="check-list">
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Affordable pricing for everyone
+          </li>
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Professional &amp; certified staff
+          </li>
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Modern equipment &amp; techniques
+          </li>
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Flexible payment options
+          </li>
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Clean &amp; relaxing environment
+          </li>
+          <li>
+            <span class="check-icon">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            Convenient location in Rosario
+          </li>
+        </ul>
+
+        <a href="#" class="btn-book">Book Your Appointment Now</a>
+      </div>
+
+    </div>
+
+    <div class="address-wrap">
+      <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+      <div class="address-text">
+        <strong>Namuco, Rosario, Batangas</strong>
+        <span>(Rosario, Public Market beside Besnet)</span>
+      </div>
     </div>
 
   </div>
-</section>
-
-<section class="page" id="projects">
-
-  <div class="project-card">
-    <div class="project-thumb">
-      <img src="project 1 copy.jpg" alt="">
-      
-    </div>
-    <div class="project-label">📡 Cisco Network Project</div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-thumb">
-        <img src="project 2 copy.jpg" alt="">
-    
-    </div>
-    <div class="project-label">🌐 Portfolio Website UI</div>
-  </div>
-
-</section>
-
-<script>
-const links = document.querySelectorAll('.nav-links a');
-const pages = document.querySelectorAll('.page');
-
-function navigate(pageId){
-  pages.forEach(page => page.classList.remove('active'));
-  links.forEach(link => link.classList.remove('active'));
-
-  document.getElementById(pageId).classList.add('active');
-
-  const activeLink = document.querySelector(`[data-page="${pageId}"]`);
-  if(activeLink) activeLink.classList.add('active');
-}
-
-links.forEach(link=>{
-  link.addEventListener('click', e=>{
-    e.preventDefault();
-    navigate(link.dataset.page);
-  });
-});
-</script>
 
 </body>
 </html>
